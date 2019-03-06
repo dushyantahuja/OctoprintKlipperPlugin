@@ -91,11 +91,7 @@ $(function() {
         
         self.onDataUpdaterPluginMessage = function(plugin, message) {
            if(plugin == "klipper") {
-              if(message["type"] == "status") {
-                 self.shortStatus(message["payload"]);
-              } else {
                  self.logMessage(message["time"], message["subtype"], message["payload"]);
-              }
            }
         }
 
@@ -125,6 +121,6 @@ $(function() {
            "klipperLevelingViewModel",
            "klipperMacroDialogViewModel"
         ],
-        elements: ["#tab_plugin_klipper_main", "#sidebar_plugin_klipper", "#navbar_plugin_klipper"]
+        elements: ["#tab_plugin_klipper_main", "#sidebar_plugin_klipper"]
     });
 });
