@@ -1,5 +1,8 @@
 ## Fork information:
-- This is forked from [the original](https://github.com/mmone/OctoprintKlipperPlugin) version 0.2.5
+- This is forked from [codejedi365's fork](https://github.com/codejedi365/OctoprintKlipperPlugin) version 0.2.5-JEL-0.1
+- Removed the status bar update as it was cluttering up my bar.
+
+#CodeJedi365's Fork:
 - The current version is 0.2.5-JEL-0.1 and includes modified versions of:
   - klipper.js
   - klipper_param_macro.js
